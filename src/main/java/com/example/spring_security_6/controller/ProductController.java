@@ -21,7 +21,7 @@ public class ProductController {
 			List.of(new Product(1, "product", 120), new Product(2, "product2", 120), new Product(3, "product3", 120))
 			);
 	
-	@GetMapping("/")
+	@GetMapping("/product")
 	public List<Product> getAllProducts(){
 		return products;
 	}
